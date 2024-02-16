@@ -1,0 +1,31 @@
+.containerHome {
+  display: flex;
+  height: 100vh;
+}
+
+.leftHome,
+.rightHome {
+  flex: 1;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftHome {
+  background-image: url("/public/val.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.rightHome {
+  background-image: url("/public/cs2.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.valToCsBtn,
+.csToValBtn {
+  margin-top: 50vh;
+  padding: 1vw 2vw;
+  border-radius: 15px;
+}
