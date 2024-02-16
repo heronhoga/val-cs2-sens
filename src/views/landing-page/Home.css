@@ -55,3 +55,16 @@
   cursor: pointer;
 }
 
+.titleHome {
+  position: absolute;
+  top: 1vh;
+  left: 9%;
+  transform: translateX(-50%);
+  font-size: 1.5vw;
+  color: rgb(255, 70, 84);
+  border: 0.5vw solid;
+  padding: 0.5vw;
+  border-radius: 15px;
+  border-color: rgb(255, 255, 255);
+  background-color: black;
+}

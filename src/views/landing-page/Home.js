@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className="containerHome">
       <div className="leftHome">
-        <img src="/public/val.jpg" alt="Valorant" />
+        <h1 className="titleHome">Sensitivity converter by: hg</h1>
         <Link to="/cs2-to-val">
           <button className="csToValBtn">
             Convert CS2 Sensitivity to Valorant
@@ -14,12 +14,12 @@ function Home() {
         </Link>
       </div>
       <div className="rightHome">
+        <h1 className="titleHome">Sensitivity converter by: hg</h1>
         <Link to="/val-to-cs2">
           <button className="valToCsBtn">
             Convert Valorant Sensitivity to CS2
           </button>
         </Link>
-        <img src="/public/cs2.jpeg" alt="CS2" />
       </div>
     </div>
   );
