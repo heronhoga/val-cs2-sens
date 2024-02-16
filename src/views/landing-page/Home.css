@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Bison";
+  src: url("../../fonts/Bison.ttf") format("truetype");
+}
+
 .containerHome {
   display: flex;
   height: 100vh;
@@ -26,6 +31,27 @@
 .valToCsBtn,
 .csToValBtn {
   margin-top: 50vh;
-  padding: 1vw 2vw;
+  padding: 1vw;
   border-radius: 15px;
+  font-family: "Bison";
+  font-size: 2vw;
+  border: 0.5vw solid;
 }
+
+.valToCsBtn {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-color: rgb(255, 175, 2);
+}
+
+.csToValBtn {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-color: rgb(255, 70, 84);
+}
+
+.csToValBtn:hover,
+.valToCsBtn:hover {
+  cursor: pointer;
+}
+
