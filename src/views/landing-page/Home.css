@@ -68,3 +68,89 @@
   border-color: rgb(255, 255, 255);
   background-color: black;
 }
+
+@media only screen and (max-width: 767px) {
+  .valToCsBtn,
+  .csToValBtn {
+    margin-top: 50vh;
+    padding: 1vw;
+    border-radius: 15px;
+    font-family: "Bison";
+    font-size: 3vw;
+    border: 0.5vw solid;
+  }
+
+  .valToCsBtn {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-color: rgb(255, 175, 2);
+  }
+
+  .csToValBtn {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-color: rgb(255, 70, 84);
+  }
+
+  .csToValBtn:hover,
+  .valToCsBtn:hover {
+    cursor: pointer;
+  }
+
+  .titleHome {
+    position: absolute;
+    top: 1vh;
+    left: 18%;
+    transform: translateX(-50%);
+    font-size: 3vw;
+    color: rgb(255, 70, 84);
+    border: 0.5vw solid;
+    padding: 0.5vw;
+    border-radius: 15px;
+    border-color: rgb(255, 255, 255);
+    background-color: black;
+  }
+}
+
+@media only screen and (max-width: 529px) {
+  .valToCsBtn,
+  .csToValBtn {
+    margin-top: 50vh;
+    padding: 1vw;
+    border-radius: 15px;
+    font-family: "Bison";
+    font-size: 3.8vw;
+    border: 0.5vw solid;
+  }
+
+  .valToCsBtn {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-color: rgb(255, 175, 2);
+  }
+
+  .csToValBtn {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-color: rgb(255, 70, 84);
+  }
+
+  .csToValBtn:hover,
+  .valToCsBtn:hover {
+    cursor: pointer;
+  }
+
+  .titleHome {
+    position: absolute;
+    top: 1vh;
+    left: 23%;
+    transform: translateX(-50%);
+    font-size: 4vw;
+    color: rgb(255, 70, 84);
+    border: 0.5vw solid;
+    padding: 1.5vw;
+    border-radius: 15px;
+    border-color: rgb(255, 255, 255);
+    background-color: black;
+  }
+}
