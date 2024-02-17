@@ -1,0 +1,44 @@
+.card-container {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 4vw;
+  padding-top: 1vw;
+  border: 1vw solid;
+  border-color: rgb(253, 69, 84);
+  border-radius: 15px;
+  box-shadow: 1px 2px 4px rgb(0, 0, 0);
+}
+
+.card-title {
+  margin-bottom: 4vh;
+  font-size: 3vw;
+}
+
+.input-sens {
+  padding: 1vw;
+  font-family: "Bison";
+  font-size: 1.5vw;
+  border-radius: 15px;
+  margin-bottom: 2vh;
+}
+
+.output {
+  font-size: 2vw;
+  margin-bottom: 2vh;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 0.5vw;
+}
+
+.button {
+  font-family: "Bison";
+  font-size: 2vw;
+  background-color: rgb(253, 69, 84);
+  color: white;
+  padding: 0.5vw;
+  border: transparent;
+  border-radius: 15px;
+}
