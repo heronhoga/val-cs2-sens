@@ -39,6 +39,7 @@ function CsVal() {
           changeFunction={handleInputChange}
           inputValue={inputValue}
           outputValue={outputValue}
+          color="rgb(253, 69, 84)"
         />
       </div>
     </div>

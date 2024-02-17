@@ -9,9 +9,10 @@ function Card({
   changeFunction,
   inputValue,
   outputValue,
+  color
 }) {
   return (
-    <div className="card-container">
+    <div className="card-container" style={{ borderColor: color }}>
       <div className="card">
         <h2 className="card-title">{title}</h2>
         <input
@@ -25,13 +26,13 @@ function Card({
         <div className="output">Output: {outputValue}</div>
       </div>
       <div className="button-container">
-        <button className="button" onClick={convertFunction}>
+        <button className="button" onClick={convertFunction} style={{ backgroundColor: color }}>
           CONVERT
         </button>
-        <button className="button" onClick={resetFunction}>
+        <button className="button" onClick={resetFunction} style={{ backgroundColor: color }}>
           RESET
         </button>
-        <button className="button" onClick={navigateFunction}>
+        <button className="button" onClick={navigateFunction} style={{ backgroundColor: color }}>
           {navigation_title}
         </button>
       </div>
