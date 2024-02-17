@@ -1,30 +1,15 @@
-import React, { useState } from "react";
 import "./Card.css";
-import { useNavigate } from "react-router-dom";
 
-function Card({ title, navigation_title }) {
-  const navigate = useNavigate();
-  const [inputValue, setInputValue] = useState("");
-  const [outputValue, setOutputValue] = useState("");
-
-  const handleConvertClick = () => {
-    const result = (Number(inputValue) / 3.182).toFixed(4);
-    setOutputValue(result);
-  };
-
-  const handleInputChange = (e) => {
-    setInputValue(e.target.value);
-  };
-
-  const handleResetClick = () => {
-    setInputValue("");
-    setOutputValue("");
-  };
-
-  const handleNavigateClick = () => {
-    navigate("/val-to-cs2", { replace: false });
-  };
-
+function Card({
+  title,
+  navigation_title,
+  convertFunction,
+  resetFunction,
+  navigateFunction,
+  changeFunction,
+  inputValue,
+  outputValue,
+}) {
   return (
     <div className="card-container">
       <div className="card">
@@ -34,19 +19,19 @@ function Card({ title, navigation_title }) {
           type="number"
           step="0.000001"
           value={inputValue}
-          onChange={handleInputChange}
+          onChange={changeFunction}
           placeholder="Input sens.."
         />
         <div className="output">Output: {outputValue}</div>
       </div>
       <div className="button-container">
-        <button className="button" onClick={handleConvertClick}>
+        <button className="button" onClick={convertFunction}>
           CONVERT
         </button>
-        <button className="button" onClick={handleResetClick}>
+        <button className="button" onClick={resetFunction}>
           RESET
         </button>
-        <button className="button" onClick={handleNavigateClick}>
+        <button className="button" onClick={navigateFunction}>
           {navigation_title}
         </button>
       </div>
