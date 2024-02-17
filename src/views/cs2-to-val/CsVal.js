@@ -7,7 +7,10 @@ function CsVal() {
   return (
     <div className="containerCsval">
       <div className="convertCard">
-        <Card title="Convert CS2 Sensitivity to Valorant" />
+        <Card
+          title="Convert CS2 Sensitivity to Valorant"
+          navigation_title="VALORANT SENS TO CS2"
+        />
       </div>
     </div>
   );

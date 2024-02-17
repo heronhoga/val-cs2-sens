@@ -39,6 +39,63 @@
   background-color: rgb(253, 69, 84);
   color: white;
   padding: 0.5vw;
-  border: transparent;
   border-radius: 15px;
+}
+
+@media only screen and (max-width: 700px) {
+  .card-title {
+    margin-bottom: 3vh;
+    font-size: 4vw;
+  }
+
+  .input-sens {
+    padding: 1vw;
+    font-family: "Bison";
+    font-size: 3vw;
+    border-radius: 15px;
+    margin-bottom: 2vh;
+  }
+
+  .output {
+    font-size: 3vw;
+    margin-bottom: 2vh;
+  }
+
+  .button {
+    font-family: "Bison";
+    font-size: 4vw;
+    background-color: rgb(253, 69, 84);
+    color: white;
+    padding: 0.5vw;
+    border-radius: 15px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .card-title {
+    margin-bottom: 3vh;
+    font-size: 6vw;
+  }
+
+  .input-sens {
+    padding: 1vw;
+    font-family: "Bison";
+    font-size: 4vw;
+    border-radius: 15px;
+    margin-bottom: 2vh;
+  }
+
+  .output {
+    font-size: 4vw;
+    margin-bottom: 2vh;
+  }
+
+  .button {
+    font-family: "Bison";
+    font-size: 5vw;
+    background-color: rgb(253, 69, 84);
+    color: white;
+    padding: 0.5vw;
+    border-radius: 15px;
+  }
 }
